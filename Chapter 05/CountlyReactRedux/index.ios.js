@@ -22,5 +22,5 @@ const Countly = () => (
     <CounterContainer />
   </Provider>
 );
-
+export default Countly;
 AppRegistry.registerComponent('Countly', () => Countly);
